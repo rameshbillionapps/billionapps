@@ -1,0 +1,228 @@
+.industries h2{color:#f45d26;}
+.tag{color:#f45d26;}
+.tag2{display: block;text-transform: unset;font-size: 22px;}
+.industries{background-color: #fff;}
+.description{
+	line-height: 24px;
+    color: #636363;
+    font-size: 16px;
+    }
+ .item-icon {
+width: 60px;
+    height: 60px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 100%;
+    margin: 0 auto;
+    border: 1px solid #f45c26;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+ .item-icon.icon1{
+ background-image: url('../images/Points_Icons_Technology-01.png');
+ }
+  .item-icon.icon2{
+ background-image: url('../images/Points_Icons_Technology-02.png');
+ }
+  .item-icon.icon3{
+ background-image: url('../images/Points_Icons_Technology-03.png');
+ }
+ .desc{
+line-height: 20px;
+    font-size: 14px;
+    min-height: 80px; 
+ 
+ }
+ .box-panel{
+display: flex; 
+ }
+ .box-panel .item:hover .item-content{
+ 	background-color: #f45d26;
+ }
+.box-panel .item{
+	flex-grow: 1;
+    flex-basis: 0;
+}
+.box-panel .item:hover .desc{
+ 	color: #fff;
+ }
+ .box-panel .item-content{
+ width: 64%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #f45d26;
+    border-radius: 22px;
+    min-height: 200px;
+    padding: 15px;
+  }
+  
+  /******Tab**************/
+  
+/* Style the tab */
+.industries .tab {
+  overflow: hidden;
+    /* border: 1px solid #ccc; */
+    background-color: #ebe9ea;
+    border-radius: 40px;
+}
+
+/* Style the buttons inside the tab */
+.industries .tab button {
+ float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 23px;
+    width: 25%;
+    color: #2e2e2e;
+    font-weight: bold;
+}
+
+/* Change background color of buttons on hover */
+.industries .tab button:hover {
+  background-color: #ddd;
+border-radius: 40px;
+}
+
+/* Create an active/current tablink class */
+.industries .tab button.active {
+  background-color: #f45d26;
+  color: #fff;
+  border-radius: 40px;
+}
+
+/* Style the tab content */
+.industries .tabcontent {
+  display: none;
+  padding: 6px 12px;
+  
+  border-top: none;
+}
+.tab-section{
+margin-top: 40px;
+
+}
+.content-block{
+padding:30px 0px;
+}
+.content-block p {
+    margin: 0px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+.content-block:after{
+clear: both;
+content:'';
+display: block;
+float: none;
+}
+.img-cnt{
+	width:40%;
+	float: left;
+}
+.txt-cnt{
+width: 55%;
+    float: left;
+    padding-left: 25px;
+}
+.our-work-link a{
+padding: 18px 60px 18px 40px;
+font-size: 15px;
+
+}
+.our-work-link {
+    margin: 32px 0px;
+}
+.our-work-link:hover .arrow-btn {
+    padding: 18px 90px 18px 40px;
+}
+
+.our-work-link .arrow-btn {
+    background: #fff;
+    color: #f45c26;
+    border: 2px solid #f45c26;
+    border-radius: 50px;
+}
+.slider_btn.our-work-link  .arrow-btn:after {
+    border-right: 2px solid #f45c26;
+    border-top: 2px solid #f45c26;
+}
+.arrow-btn-box.our-work-link:hover .arrow-btn:after {
+    border-right: 2px solid #f45c26;
+    border-top: 2px solid #f45c26;
+}
+.slider_btn.our-work-link  .arrow-btn:before{
+    background: #f45c26;
+ }
+@media(max-width:767px){
+.box-panel {
+    display: block;
+}
+.box-panel .item-content {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #f45d26;
+    border-radius: 22px;
+    min-height: 200px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.industries .tab button.active {
+    background-color: #f45d26 !important;
+    color: #fff;
+    border-radius: 40px;
+}
+.industries .tab button:hover {
+    background-color: #ddd;
+    border-radius: 40px;
+}
+.industries .tab {
+    border-radius: 25px;
+    margin: 0 auto;
+    width: 90%;
+}
+.industries .tab button {
+    float: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 16px;
+    width: 100%;
+    color: #2e2e2e;
+    font-weight: bold;
+}
+.txt-cnt {
+    width: 100%;
+    float: left;
+    padding-left: 0;
+    margin-top: 20px;
+}
+.img-cnt {
+    width: 100%;
+    float: none;
+}
+} 
+@media(min-width:768px) and (max-width:1024px) and (orientation:portrait) {
+.desc {
+    line-height: 14px;
+    font-size: 12px;
+    min-height: 80px;
+}
+.industries .tab button {
+   
+    padding: 14px 12px;
+    font-size: 21px;
+  
+}
+
+}
+ 

@@ -1,0 +1,58 @@
+/* Responsive Code */
+@media screen and (min-width:100px) and (max-width:480px){
+/* Menu & Home Banner Section */
+.menu-open {width: 35px;height: 35px;}	
+.menu-open:before {width: 30px;height: 3px;left: 18%;}
+.hamburger:before, .hamburger:after {width: 20px;height: 3px;left: 28%;}    
+.menu_getin_touch {min-width: 49px;right: 70px;top: -7px;}
+.logo{width: 160px;margin: 20px 0 0 10px;}
+.hamburger:after {top: 67%;}
+.six-columns.banner_image{order: 1;}
+.six-columns.banner_content{order: 2;}
+.six-columns.banner_image img {width: 100%;}
+.home .container {width: calc(100% - 100px);margin-left: 60px;}
+.footer .container {width: calc(100% - 20px);margin-left:0;}
+.home .home-slider-content .container{margin-left: 80px;width: calc(100% - 100px);}
+.slider_services {margin-top: 10px;}
+.slider_btn .arrow-btn{padding: 15px 50px 15px 30px;}
+.banner_content .arrow-btn-box:hover .arrow-btn{padding: 15px 60px 15px 30px;}
+.home-slider-content .top-bottom-padding-120 {padding-top: 90px;}
+.red-slide .small-title-oswald span {padding-right: 8px;margin-right: 5px;}
+.slider_services span {padding-left: 8px;font-size: 10px;}
+.slider_services .small-title-oswald {font-size: 10px;}
+.scroll-btn{bottom: 10px;}
+.slider_btn .arrow-btn:before{right: 25px;}
+.slider_btn .arrow-btn:after{right: 25px;}
+.getintouch {right: -100px;width: 53px;margin-top: 15px}
+
+/* Get In Touch */ 
+
+}
+
+
+/* Mobile Ladscape */ 
+@media screen and (min-width:481px) and (max-width:767px){
+/* Get In Touch */ 
+
+}
+
+@media screen and (max-width: 896px) and (orientation: landscape) {}
+
+/* Ipads*/ 
+
+@media all and (device-width:768px) and (device-height:1024px) and (orientation:landscape){}
+@media all and (device-width:1024px) and (device-height:768px) and (orientation:landscape){}
+
+@media all and (device-width:768px) and (device-height:1024px) and (orientation:portrait){}
+
+@media all and (device-width:1024px) and (device-height:1366px) and (orientation:portrait){}
+
+/* Ipad Pro11*/
+
+@media screen and (device-width:834px) and (device-height: 1194px){}
+
+@media all and (device-width:800px) and (device-height:1159px){}
+
+@media all and (device-width:800px) and (device-height:1200px){}
+
+@media all and (device-width:712px) and (device-height:1138px){}

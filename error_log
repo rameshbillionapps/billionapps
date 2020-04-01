@@ -1,0 +1,8 @@
+[31-Mar-2020 01:44:53 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home1/taryn8tj/ba.stagingba.com/index.php:802
+Stack trace:
+#0 {main}
+  thrown in /home1/taryn8tj/ba.stagingba.com/index.php on line 802
+[31-Mar-2020 01:53:00 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home1/taryn8tj/ba.stagingba.com/index.php:802
+Stack trace:
+#0 {main}
+  thrown in /home1/taryn8tj/ba.stagingba.com/index.php on line 802

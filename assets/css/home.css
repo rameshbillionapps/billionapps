@@ -1,0 +1,28 @@
+.large-title-bold {
+    font-weight: 500;
+}
+.home-part{
+    
+}
+.banner_image img{
+    width: 93%;
+    padding-top: 50px;
+    
+}
+.text-right{
+    text-align: right;
+}
+.headroom--not-top{
+    height: 100px !important;
+    background-color: #fff;
+}
+.headroom--not-top .logo {
+    /* width: 100px; */
+    width: 250px;
+    /* margin: 20px 0 0 40px; */
+    /* margin: 35px 0px 0px 130px; */
+    padding: 16px 0px;
+}
+.headroom--not-top .menu-open{
+    margin: 20px 0px;
+}
