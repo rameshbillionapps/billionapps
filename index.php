@@ -106,7 +106,7 @@
                         <!-- column start -->
                         <div class="six-columns banner_content">
                            <h2 class="large-title-bold">
-                              <span class="slider-title-fill slider-tr-delay01" data-text="The Technology Partner,">The Technology Partner,</span><br>
+                              <span class="slider-title-fill slider-tr-delay01" data-text="The Technology Partner,"> Technology Partner,</span><br>
                               <span class="slider-title-fill slider-tr-delay02" data-text="Trusted By Customers">Trusted By Customers</span><br>
                               <span class="slider-title-fill slider-tr-delay03" data-text="Again and Again!">Again and Again!</span>
                            </h2>
