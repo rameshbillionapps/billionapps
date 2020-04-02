@@ -1,6 +1,6 @@
 ---
     deployment:
       tasks:
-        - export DEPLOYPATH=/home1/taryn8tj/public_html/billionapps-website
+        - export DEPLOYPATH=/home1/taryn8tj/public_html/billionapps-website/
         - /bin/cp * $DEPLOYPATH
   
