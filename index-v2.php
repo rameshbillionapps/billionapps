@@ -215,7 +215,7 @@
                               <div class="client-box"><span>3000+</span>PROJECTS DELIVERED</div>
                            </li>
                            <li>
-                              <div class="client-box"><span>15+</span>INDUSTRIES SERVED</div>
+                              <div class="client-box"><span>150+</span>INDUSTRIES SERVED</div>
                            </li>
                            <li>
                               <div class="client-box"><span>10+</span>YEARS <br/>EXPERIENCE</div>
